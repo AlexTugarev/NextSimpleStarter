@@ -1,0 +1,9 @@
+
+tasks:
+  - command: >
+        yarn install &&
+        yarn dev
+
+ports:
+  - port: 3000
+    onOpen: open-browser
